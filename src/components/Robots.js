@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const Robots = [];
 for (var i = 0; i < 15; i++) {
@@ -13,12 +14,13 @@ class Card extends Component {
   };
   renderRobot = robot =>{
     const {search} = this.state;
-
-
-    return <div className="images" key={robot}>
+    return (
+    
+    <Link to={`/robot/${robot}`} key={robot}>
+    <div className="images black">
     <div className="row center-align">
       <div  className="col s12 m12 center-align">
-            <div className="card">
+            <div className="card  deep-purple darken-4">
               <div className="card-image center-align">
               <img alt="robots" className="circle responsive-img" src={`https://robohash.org/${robot}?100x100`} />
               <span className="card-title black-text">{robot}</span>
@@ -27,6 +29,8 @@ class Card extends Component {
           </div>
           </div>
           </div>
+        </Link>
+    )
 }
 
   onchange = e =>{
@@ -47,12 +51,14 @@ class Card extends Component {
     <input placeholder="Search" onChange={this.onchange}/>
     </div>
     </div>
+
    { 
      filteredRobots.map( robot => {
        return this.renderRobot(robot)
      })
    }
-     </div>
+
+      </div>
   )  
 }
 }
