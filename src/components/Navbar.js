@@ -13,9 +13,8 @@ export default function Navbar() {
       </a>
       </Link>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li><a href="/">-</a></li>
-        <li><a href="/">--</a></li>
-        <li><a href="/">---</a></li>
+        <li><a href="/">Reload Robots</a></li>
+
       </ul>
     </div>
   </nav>
