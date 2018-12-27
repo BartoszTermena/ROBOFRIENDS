@@ -1,6 +1,6 @@
 
 
-<img src="/screen_record_2.gif?raw=true" width="500px">
+<img style="text-align:center" src="/screen_record_2.gif?raw=true" width="500px">
 
 
 
