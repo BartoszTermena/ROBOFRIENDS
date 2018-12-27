@@ -1,5 +1,5 @@
 
-<p style="text-align:center">
+<p align="center">
 <img  src="/screen_record_2.gif?raw=true" width="500px">
 </p>
 
