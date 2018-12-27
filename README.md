@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://s2.gifyu.com/images/screen_record_2.gif" width="350">
+  <img src="https://s2.gifyu.com/images/screen_record_2.gif" style="width:150px;">
 </p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
