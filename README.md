@@ -1,7 +1,7 @@
 
-
-<img style="text-align:center" src="/screen_record_2.gif?raw=true" width="500px">
-
+<p style="text-align:center">
+<img  src="/screen_record_2.gif?raw=true" width="500px">
+</p>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
